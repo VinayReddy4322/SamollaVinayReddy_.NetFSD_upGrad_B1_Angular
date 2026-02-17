@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enhanced Registration Form</h2>
+    <form action="" autocomplete="on">
+        name:
+        <input type="'text" placeholder="Enter Your Name" required autofocus><br><br>
+
+        EMail:
+        <input type="email" placeholder="Enter Email" autocomplete="on" required><br><br>
+
+        Phone:
+        <input type="tel" pattern[0-9]{10} placeholder="10 digit Number" required> <br><br>
+
+
+        Age:
+        <input type="number" min="18" max="60" step="1" required><br><br>
+
+        userName:
+        <input type="text" value="User123" readonly><br><br>
+
+        Disabled Field:
+        <input type="text" value="Not Editable" disabled><br><br>
+
+        Upload Certificates:
+        <input type="file" multiple><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

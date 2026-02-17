@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Nextgen Solutions</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Register</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>About Our company</h2>
+                <p>Nextgen solutions provides innoviative IT solutions including web development, AI and ,Cloud Services</p>
+                <figure>
+                    <img src="company.jpg" alt="No Image" width="400">
+                    <figcaption>Innvoating the future</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h2>Our mission</h2>
+                <p>we aim to empower business with cutting edge technologies solution</p>
+            </article>
+        </section>
+        <aside>
+            <h3>Our Services</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>AI Soloutions</li>
+                <li>Cloud Coumpting</li>
+                <li>Cyber Security</li>
+            </ul>
+        </aside>
+        <section>
+            <h2>Employee Registration Form</h2>
+            <form action="" autocomplete="on">
+                Name:
+                <input type="text" placeholder="Enter Full Name" required autofocus><br><br>
+
+                Email:
+                <input type="email" autocomplete="on" placeholder="abc@gmail.com" required><br><br>
+
+                Website:
+                <input type="url" required placeholder="https:www.example.com"><br><br>
+
+                Phone:
+                <input type="number" pattern="[0-9]{10}" placeholder="10 Digiit number" req><br><br>
+                Age:
+                <input type="number" min="18" max="60" step="1"><br><br>
+
+                Skill Level:
+                <input type="range" min="1" max="10"><br><br>
+
+                Favourite color:
+                <input type="color"><br><br>
+
+                Joining Date:
+                <input type="date"><br><br>
+
+                Meeting Time:
+                <input type="time"><br><br>
+
+                Month:
+                <input type="month"><br><br>
+
+                Week:
+                <input type="week"><br><br>
+
+                Date &Time:
+                <input type="datetime-local"><br><br>
+
+                Programming languages:
+                <input type="text" list="languages" placeholder="Select Language">
+                <datalist id="languages">
+                    <option value="HTMl"></option>
+                    <option value="CSS"></option>
+                    <option value="JS"></option>
+                    <option value="Java"></option>
+                    <option value="Python"></option>
+                    <option value="React"></option>
+                    <option value="C++"></option>
+                    <option value=".NET"></option>
+                </datalist><br><br>
+
+                Upload Resume:
+                <input type="file" multiple><br><br>
+
+                Employee ID: (readonly)
+                <input type="text" value="SVR2026" readonly><br><br>
+
+                Disabled Field :
+                <input type="text" value="Not Editable" disabled><br><br>
+
+                <input type="submit" valule="Register">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+        <section>
+            <h2>Company Introduction Audio </h2>
+            <audio src="" controls autoplay loop>
+                <source src="company.mp3" type="audio/mpeg">
+                <source src="intro.ogg" type="audio/ogg">
+                Your Browser does not support the audio elemnt.
+            </audio><br><br>
+
+            <h2>Company Presention Video</h2>
+            <video src="" controls width="500" height="300" poster="poster.jpg">
+                <source src="company.mp4" type="video/mp4">
+                <source src="company.webm" type="video/webm">
+                Your Browser does not support the video Element.
+            </video>
+        </section>
+        <section>
+            <footer>
+                <p>
+                    &copy; 2026 NextGen Solutions. All Rights Reserved.
+                </p>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>

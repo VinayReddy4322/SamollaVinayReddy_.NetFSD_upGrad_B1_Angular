@@ -1,0 +1,13 @@
+body{
+    background-color: lightyellow;
+}
+h2{
+    color: darkred;
+}
+div{
+    border: 2px  solid balck;
+}
+button:hover{
+    background: black;
+    color: white;
+}

@@ -1,0 +1,49 @@
+/* Page Background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f0ff;  /* Different page background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered Login Box */
+ .container{
+    background-color: white;
+    padding: 30px;              /* Padding */
+    margin: 20px;               /* Margin */
+    border-radius: 12px;        /* Rounded corners */
+    box-shadow: 1px 5px 10px rgb(208, 116, 4);
+    width: 300px;
+    text-align: center;
+    transform: scale(1.05);
+}
+
+/* Input Fields */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3;
+    
+}
